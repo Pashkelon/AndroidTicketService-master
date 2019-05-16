@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ticket Service</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="suc_return">Return to the main page</string>
+    <string name="reg1">I have read the notice on </string>
+    <string name="reg2">data protection </string>
+    <string name="reg3">and the content </string>
+    <string name="reg4">of the </string>
+    <string name="reg5">Standart terms of business </string>
+    <string name="reg6">and I agree to the </string>
+    <string name="reg7">storage of my personal data.</string>
+    <string name="reg8">I agree to get notifications on my Email and phone.</string>
+    <string-array name="mr">
+        <item>Mr.</item>
+        <item>Ms.</item>
+    </string-array>
+</resources>

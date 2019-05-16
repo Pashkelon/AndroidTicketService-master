@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="berlinCity">Berlin City Hall</string>
+    <string name="addressBerlin">Freudstrasse 69, 10117 Berlin</string>
+    <string name="telBerlin">Tel.: 030 2223344</string>
+    <string name="faxBerlin">Fax: 030 2223355</string>
+    <string name="emailBerlin">E-Mail: info@bch.de</string>
+    <string name="events"><u>EVENTS</u></string>
+    <string name="terms_and_conditions"><u>TERMS AND CONDITIONS</u></string>
+    <string name="shopping_cart"><u>SHOPPING CART</u></string>
+    <string name="paying"><u>PAYING</u></string>
+    <string name="notification">The tickets shown here have now been reserved for you for 10 minutes</string>
+    <string name="agree2">  and fully agree</string>
+    <string name="agree3"> with them</string>
+    <string name="tc" formatted="true"> Terms and Conditions </string>
+    <string name="agree">I have read</string>
+    <string name="success"><u>SUCCESS</u></string>
+    <string name="congrats">Congratulations!
+        You\'ve successfully payed!
+        Your PDF tickets have been sent to your email.
+        We wish you a pleasant time!   </string>
+</resources>

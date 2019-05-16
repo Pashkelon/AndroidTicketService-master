@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login_out"
+            android:title="LOGIN/OUT" />
+        <item
+            android:id="@+id/nav_events"
+            android:title="EVENTS" />
+        <item
+            android:id="@+id/nav_shopping_cart"
+            android:title="SHOPPING CART" />
+        <item
+            android:id="@+id/nav_terms_and_conditions"
+            android:title="TERMS AND CONDITIONS" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="ABOUT US" />
+    </group>
+
+</menu>

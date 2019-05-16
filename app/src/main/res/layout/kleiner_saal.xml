@@ -1,0 +1,3667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/done_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:rowCount="9">
+
+        <GridLayout
+            android:id="@+id/row1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:columnCount="17"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R1_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="90dp"
+            android:columnCount="18"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R2_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:columnCount="19"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R3_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:columnCount="20"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_10R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R4_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:columnCount="21"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_11L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_10R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R5_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:columnCount="22"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_11L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_11R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_10R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R6_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:columnCount="23"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_11L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_12L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_11R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_10R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R7_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:columnCount="24"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_11L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_12L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_12R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_11R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_10R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R8_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/row9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:columnCount="25"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_1L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_2L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_3L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_4L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_5L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_6L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_7L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_8L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_9L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_10L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_11L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_12L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_13L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="13"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_12R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_11R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="11"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_10R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="10"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_9R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="9"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_8R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="8"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_7R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="7"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_6R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="6"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_5R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="5"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_4R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="4"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_3R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="3"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_2R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="2"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:id="@+id/R9_1R"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="1"
+                    android:textColor="#FFF">
+
+                </TextView>
+            </com.example.biletiki2.UIclasses.MyView>
+        </GridLayout>
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

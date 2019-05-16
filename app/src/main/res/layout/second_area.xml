@@ -1,0 +1,2909 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#FFF">
+
+    <ImageView
+        android:id="@+id/done_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:columnCount="1"
+        android:orientation="vertical"
+        android:rowCount="15">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"
+            android:columnCount="15"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_4L"/>
+
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_5L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_6L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_7R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_6R" />
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_5R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R1_4R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="90dp"
+            android:columnCount="16"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_5L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_6L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_7R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_6R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R2_5R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="80dp"
+            android:columnCount="17"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_6L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_7R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R3_6R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:columnCount="18"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R4_7R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            android:columnCount="19"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R5_8R"/>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:columnCount="20"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_18L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_18R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R6_9R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:columnCount="21"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_18L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_19L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_20L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_19R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_18R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R7_10R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:columnCount="22"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_18L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_19L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_20L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_21L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_21R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_20R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_19R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_18R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R8_11R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:columnCount="23"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_18L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_19L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_20L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_21L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_22L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_21R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_20R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_19R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_18R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R9_11R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:columnCount="22"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_18L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_19L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_20L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_20R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_19R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_18R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R10_10R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:columnCount="21"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_18L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_19L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_18R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R11_9R"/>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:columnCount="20"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_17R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R12_8R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:columnCount="21"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_17L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R13_7R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:columnCount="22"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_6L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_13L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_14L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_15L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_16L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_16R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_15R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_14R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_13R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_12R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_7R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R14_6R"/>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:columnCount="23"
+            android:orientation="horizontal"
+            android:rowCount="1">
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_1L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_2L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_3L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_4L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_5L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_6L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_7L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_8L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_9L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_10L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_11L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_12L"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_11R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_10R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_9R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_8R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_7R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_6R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_5R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_4R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_3R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_2R"/>
+
+            <com.example.biletiki2.UIclasses.MyView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="5dp"
+                android:background="#ff1632"
+                android:id="@+id/R15_1R"/>
+        </GridLayout>
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
